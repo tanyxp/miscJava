@@ -6,9 +6,9 @@ My second approach was also very simple. This approach took advantage that chara
 
 Finally, I ran the same tests for the second function. The results were quite surprising.
 First method:
-![test1](miscJava/anagram1.PNG)
+![test1](/anagram1.PNG)
 Second method:
-![test2](miscJava/anagram2.PNG) 
+![test2](/anagram2.PNG) 
 
 Per the above screenshots, the second method took 33% of the time that the first method did! I believe the first method is slower because the string is traversed three times (regex, lowercase, sort), giving it a O(3n) for each string. As opposed to the second approach which has an O(n), since each string is only traversed once.
 
